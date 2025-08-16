@@ -1,9 +1,6 @@
 # towerdefensesc
 -- Script made by Swifttle basically this is a placement script for a td game with range visuals 
--- ══════════════════════════════════════════════════════════════════════════════════════
 -- SERVICES & DEPENDENCIES
--- ══════════════════════════════════════════════════════════════════════════════════════
-
 local ContextActionService = game:GetService("ContextActionService")
 local UserInputService = game:GetService("UserInputService")
 local CollectionService = game:GetService("CollectionService")
@@ -12,9 +9,7 @@ local RunService = game:GetService("RunService")
 local Players = game:GetService("Players")
 local TweenService = game:GetService("TweenService")
 
--- ══════════════════════════════════════════════════════════════════════════════════════
 -- CORE REFERENCES
--- ══════════════════════════════════════════════════════════════════════════════════════
 
 local Camera = workspace.CurrentCamera
 local Player = Players.LocalPlayer
