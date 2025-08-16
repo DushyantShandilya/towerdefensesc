@@ -1,5 +1,4 @@
 # towerdefensesc
-PlacmentScirpt
 -- Script made by Swifttle basically this is a placement script for a td game with range visuals 
 -- ══════════════════════════════════════════════════════════════════════════════════════
 -- SERVICES & DEPENDENCIES
