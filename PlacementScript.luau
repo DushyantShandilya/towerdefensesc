@@ -921,7 +921,7 @@ RunService.RenderStepped:Connect(function(deltaTime)
 	elseif CurrentTowerPreview.PrimaryPart then
 		-- Legacy method
 		pcall(function()
-			CurrentTowerPreview:SetPrimaryPartCFrame(CurrentTargetCFrame)
+			CurrentTowerPreview:PivotTo(CurrentTargetCFrame)
 		end)
 	end
 
